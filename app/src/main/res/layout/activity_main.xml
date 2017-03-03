@@ -71,4 +71,20 @@
             android:text="@string/vacinas"
             android:id="@+id/cbVacina"
             android:checked="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:id="@+id/btnCalcular"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 00,00"
+            android:textSize="50sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
 </LinearLayout>
