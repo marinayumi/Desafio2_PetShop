@@ -49,4 +49,26 @@
             android:text="@string/pastor_canadense"
             android:id="@+id/rbtnCanadense"/>
     </RadioGroup>
+
+
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/femea"
+            android:id="@+id/cbFemea"
+            android:layout_marginTop="25dp"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/adestrado"
+            android:id="@+id/cbAdestrado"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vacinas"
+            android:id="@+id/cbVacina"
+            android:checked="true"/>
 </LinearLayout>
